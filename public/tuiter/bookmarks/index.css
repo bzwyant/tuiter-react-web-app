@@ -1,0 +1,201 @@
+.wd-background-color-black {
+    background-color: black;
+    width: 100%;
+}
+
+.wd-border {
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+}
+
+.wd-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.wd-mini-text-gap-below {
+    margin-bottom: 3px;
+}
+
+.wd-header-tag-font {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-margin-left {
+    margin-left: 16px;
+}
+
+.wd-margin-right {
+    margin-right: 16px;
+}
+
+.wd-margin-y {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.wd-twitter-font {
+    font-family: "Helvetica Neue";
+}
+
+.wd-post-font-size {
+    font-size: 15px;
+}
+
+.wd-title {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wd-secondary-text {
+    font-size: 15px;
+    color: rgb(110, 118, 125)
+}
+
+.wd-header > .fa-ellipsis {
+    display: flex;
+    align-items: center;
+    color: rgb(29, 161, 242);
+}
+
+.wd-bookmark-posts{
+    width: 100%;
+}
+
+.wd-post-padding{
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.wd-post {
+    display: flex;
+    justify-content: left;
+    gap: 12px;
+}
+
+.wd-post-account-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+}
+
+.wd-post-topic-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.fa-ellipsis {
+    color: rgb(110, 118, 125);
+}
+
+.wd-post-body {
+    width: 100%;
+    margin-right: 16px;
+}
+
+.wd-white-bold-text {
+    color: white;
+    font-weight: bold;
+}
+
+.wd-post-text-size {
+    font-size: 15px;
+}
+
+.wd-name-and-tag {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 5px;
+    align-items: baseline;
+}
+
+.wd-align-center-y {
+    position: relative;
+    bottom: 3px;
+}
+
+.wd-white-text {
+    color: white;
+}
+
+.wd-main-content {
+    margin-top: 4px;
+    max-width: 506px;
+    padding-bottom: 12px;
+}
+
+.wd-image-and-caption {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 504px;
+
+}
+
+.wd-main-image {
+    width: 100%;
+    height: 264px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border: 1px rgb(47, 51, 54) solid;
+    border-bottom: none;
+    margin-bottom: 0px;
+}
+
+.wd-caption-border {
+    margin-top: 0px;
+    width: 100%;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border: 1px rgb(47, 51, 54) solid;
+}
+
+.wd-caption-padding {
+    padding: 12px;
+}
+
+.wd-post-border {
+    border: 1px rgb(47, 51, 54) solid;
+    border-top: none;
+}
+
+.wd-icons {
+    padding-top: 12px;
+    display: flex;
+    width: 504px;
+    justify-content: left;
+}
+
+.wd-icon-button {
+    display: flex;
+    justify-content: left;
+    gap: 12px;
+    width: 25%;
+}
+
+.fa-comment {
+    color: rgb(110, 118, 125);
+}
+
+.fa-retweet {
+    color: rgb(110, 118, 125);
+}
+
+.fa-heart {
+    color: #ff7070;
+}
+
+.wd-red-text {
+    font-size: 15px;
+    color: #ff7070;
+}
+
+.fa-arrow-up-from-bracket {
+    color: rgb(110, 118, 125);
+}
