@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link href="index.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/adcd430a9a.js" crossorigin="anonymous"></script>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          rel="stylesheet"/>
 </head>
 <body>
-<div class="wd-background-color-black">
+<!-- <div class="wd-background-color-black">
     <a class="wd-topic-text" href="../navigation.html">Back</a>
     <div class="wd-border">
         <div class="wd-header">
@@ -94,6 +96,221 @@
                 </div>
                 <img class="wd-post-image" src="traveling.png">
             </div>
+        </div>
+    </div>
+</div> -->
+<div class="container">
+    <div class="row mt-2">
+        <div class="col-xl-2 col-lg-1 col-sm-2">
+            <ul class="list-group mb-2">
+                <li class="list-group-item">
+                    <i class="fab fa-twitter"></i>
+                </li>
+                <li class="list-group-item d-flex">
+                    <i class="fa fa-home align-self-center me-2"></i>
+                    <span class="d-none d-xl-block align-self-center">Home</span>
+                </li>
+                <li class="list-group-item active d-flex">
+                    <i class="fa fa-hashtag align-self-center me-2"></i>
+                    <span class="d-none d-xl-block">Explore</span>
+                </li>
+                <li class="list-group-item d-flex">
+                    <i class="fa fa-bell align-self-center me-2"></i>
+                    <span class="d-none d-xl-block">Notifications</span>
+                </li>
+                <li class="list-group-item d-flex">
+                    <i class="fa fa-envelope align-self-center me-2"></i>
+                    <span class="d-none d-xl-block">Messages</span>
+                </li>
+                <li class="list-group-item d-flex">
+                    <i class="fa fa-bookmark align-self-center me-2"></i>
+                    <span class="d-none d-xl-block">Bookmarks</span>
+                </li>
+                <li class="list-group-item d-flex">
+                    <i class="fa fa-list align-self-center me-2"></i>
+                    <span class="d-none d-xl-block">Lists</span>
+                </li>
+                <li class="list-group-item d-flex">
+                    <i class="fa fa-user align-self-center me-2"></i>
+                    <span class="d-none d-xl-block">Profile</span>
+                </li>
+                <li class="list-group-item d-flex">
+                    <i class="fas fa-ellipsis-h align-self-center me-2"></i>
+                    <span class="d-none d-xl-block">More</span>
+                </li>
+            </ul>
+            <button type="button" class="btn btn-primary rounded-pill col-xl-12 me-lg-0 me-sm-0 d-md-none d-lg-block">Tweet</button>
+            <button type="button" class="btn btn-primary rounded-pill d-none d-md-block d-lg-none col-md-12">Tweet</button>
+        </div>
+        <div class="col-xl-6 col-lg-7 col-sm-10">
+            <div class="d-flex">
+                <div class="input-group mb-2 border rounded-pill">
+                    <span class="input-group-text bg-transparent border-0 text-black">
+                        <i class="fas fa-search text-muted"></i>
+                    </span>
+                    <input type="text" class="form-control rounded-pill border-0 ps-1 py-2" placeholder="Search Twitter">
+                </div>
+                <i class="fas fa-cog fa-2x mt-1 ms-2" style="color: #0d6efd"></i>
+            </div>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="for-you.html">For you</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="trending.html">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sports.html">Sports</a>
+                </li>
+                <li class="nav-item d-none d-md-block">
+                    <a class="nav-link" href="entertainment.html">Entertainment</a>
+                </li>
+            </ul>
+            <div>
+                <img class="col-12 mt-2" src="../../images/starship.jpg"/>
+                <div class="position-absolute bottom-0 text-light">
+                    <p class="p-2 m-0">SpaceX's Starship</p>
+                </div>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between">
+                    <div>
+                        <span class="text-secondary">Web Development</span>
+                        <div class="fw-bold">
+                            ReactJS
+                            <i class="fas fa-check-circle"></i>
+                            <span class="fw-normal text-secondary">- 2h</span>
+                        </div>
+                        <div class="fw-bold">
+                            React.js is a component based front end library that makes it very east to build Single Page Applications or SPAs
+                        </div>
+                    </div>
+                    <img src="../../images/react.png" class="wd-main-content-image rounded-3 ms-4"/>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <div>
+                        <div class="fw-bold">
+                            JavaScript
+                            <i class="fas fa-check-circle"></i>
+                            <span class="fw-normal text-secondary">- 2h</span>
+                        </div>
+                        <div class="fw-bold">
+                            JavaScript is programming language that can run on browsers as well as desktops
+                        </div>
+                        <span class="text-secondary">123K Tweets</span>
+                    </div>
+                    <img src="../../images/JavaScript-logo.png" class="wd-main-content-image rounded-3 ms-4"/>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <div>
+                        <span class="text-secondary">Web Development</span>
+                        <div class="fw-bold">
+                            JQuery
+                            <i class="fas fa-check-circle"></i>
+                            <span class="fw-normal text-secondary">- 2h</span>
+                        </div>
+                        <span class="text-secondary">123K Tweets</span>
+                    </div>
+                    <img src="../../images/jquery.png" class="wd-main-content-image rounded-3 ms-4"/>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <div>
+                        <span class="text-secondary">Web Development</span>
+                        <div class="fw-bold">
+                            NodeJS
+                            <i class="fas fa-check-circle"></i>
+                            <span class="fw-normal text-secondary">- 2h</span>
+                        </div>
+                        <span class="text-secondary">123K Tweets</span>
+                    </div>
+                    <img src="../../images/node-js.png" class="wd-main-content-image rounded-3 ms-4"/>
+                </li>
+            </ul>
+            <div class="d-block d-sm-none fa-2x">XS</div>
+            <div class="d-none d-sm-block d-md-none fa-2x">S</div>
+            <div class="d-none d-md-block d-lg-none fa-2x">M</div>
+            <div class="d-none d-lg-block d-xl-none fa-2x">L</div>
+            <div class="d-none d-xl-block d-xxl-none fa-2x">XL</div>
+            <div class="d-none d-xxl-block fa-2x">XXL</div>
+        </div>
+        <div class="col-lg-4 d-none d-lg-block">
+            <ul class="list-group">
+                <li class="list-group-item fw-bold">Who to follow</li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <div class="d-flex">
+                        <img class="wd-account-image rounded-circle" src="../../images/java.png"/>
+                        <div class="ms-2">
+                            <div class="fw-bold d-flex flex-nowrap">
+                                Java
+                                <i class="fas fa-check-circle align-self-center ms-1"></i>
+                            </div>
+                            @Java
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary rounded-pill wd-follow-button align-self-center">Follow</button>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <div class="d-flex">
+                        <img class="wd-account-image rounded-circle" src="../../images/relativity_space.jpg"/>
+                        <div class="ms-2">
+                            <div class="fw-bold d-flex flex-nowrap text-nowrap">
+                                Relativity Space
+                                <i class="fas fa-check-circle align-self-center ms-1"></i>
+                            </div>
+                            @relativityspace
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary rounded-pill wd-follow-button align-self-center">Follow</button>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <div class="d-flex">
+                        <img class="wd-account-image rounded-circle" src="../../images/virgin-galactic.png"/>
+                        <div class="ms-2">
+                            <div class="fw-bold d-flex flex-nowrap m-lg-0">
+                                Virgin Galactic
+                                <i class="fas fa-check-circle align-self-center ms-1"></i>
+                            </div>
+                            @virgingalactic
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary rounded-pill wd-follow-button align-self-center">
+                        Follow
+                    </button>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <div class="d-flex">
+                        <img class="wd-account-image rounded-circle" src="../../images/NASA_logo.png"/>
+                        <div class="ms-2">
+                            <div class="fw-bold d-flex flex-nowrap">
+                                NASA
+                                <i class="fas fa-check-circle align-self-center ms-1"></i>
+                            </div>
+                            @NASA
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary rounded-pill wd-follow-button align-self-center">
+                        Follow
+                    </button>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <div class="d-flex">
+                        <img class="wd-account-image rounded-circle" src="../../images/Tesla.png"/>
+                        <div class="ms-2">
+                            <div class="fw-bold d-flex flex-nowrap">
+                                Tesla
+                                <i class="fas fa-check-circle align-self-center ms-1"></i>
+                            </div>
+                            @Tesla
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary rounded-pill wd-follow-button align-self-center">
+                        Follow
+                    </button>
+                </li>
+            </ul>
         </div>
     </div>
 </div>

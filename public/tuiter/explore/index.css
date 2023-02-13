@@ -60,6 +60,8 @@
     left: 40px;
 }
 
+
+
 .wd-tabs {
     display: flex;
     margin: 0px 16px;
@@ -158,4 +160,18 @@
 .wd-align-center-y {
     position: relative;
     bottom: 3px;
+}
+
+.wd-account-image {
+    width: 45px;
+    height: 45px;
+}
+
+.wd-follow-button {
+    height: 37px;
+}
+
+.wd-main-content-image {
+    width: 75px;
+    height: 75px;
 }
