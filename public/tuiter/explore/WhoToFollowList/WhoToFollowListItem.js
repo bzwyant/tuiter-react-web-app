@@ -2,7 +2,7 @@ const WhoToFollowListItem = (who) => {
     return(`
     <li class="list-group-item d-flex justify-content-between">
        <div class="d-flex">
-          <img class="wd-account-image rounded-circle" src=${who.avatarIcon}/>
+          <img class="wd-account-image rounded-circle" src=${who.avatarIcon}>
           <div class="ms-2">
               <div class="fw-bold d-flex flex-nowrap m-lg-0">
                   ${who.userName}

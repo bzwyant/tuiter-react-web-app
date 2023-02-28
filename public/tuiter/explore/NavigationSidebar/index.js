@@ -4,7 +4,7 @@ const NavigationSidebar = () => {
         <a class="list-group-item" href="/">
             <i class="fab fa-twitter"></i>
         </a>
-        <a class="list-group-item d-flex" href="../../home.html.html">
+        <a class="list-group-item d-flex" href="../../home.html">
             <i class="fa fa-home align-self-center me-2"></i>
             <span class="d-none d-xl-block align-self-center">Home</span>
         </a>

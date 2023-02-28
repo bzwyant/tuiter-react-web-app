@@ -31,7 +31,7 @@ const ExploreComponent = () => {
             </li>
         </ul>
         <div class="position-relative">
-            <img class="col-12 my-2" src="../../images/starship.jpg">
+            <img class="col-12 my-2" src="../../images/starship.jpg" alt="SpaceX Starship">
             <div class="position-absolute bottom-0 text-light fs-3 fw-bold">
                 <p class="p-2 m-0">SpaceX's Starship</p>
             </div>
