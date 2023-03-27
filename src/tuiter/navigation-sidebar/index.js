@@ -3,7 +3,7 @@ import {Link, useLocation} from "react-router-dom";
 
 const NavigationSidebar = () => {
 	const {pathname} = useLocation();
-	const active = pathname.split('/')[2]
+	const active = pathname === "/tuiter" || pathname.split('/')[2] === 'explore' ? "explore" : pathname.split('/')[2]
 	return (
 		<>
 			<div className="list-group">

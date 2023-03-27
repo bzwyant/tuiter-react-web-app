@@ -2,7 +2,7 @@
   {
     "_id": 123,
     "topic": "Web Development",
-    "userName": "ReactJS",
+    "userName": "ReactJRE",
     "time": "2h",
     "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
     "image": "react.png",
@@ -10,8 +10,8 @@
     "replies": 123,
     "retuits": 432,
     "likes": 2345,
-    "handle": "@spacex",
-    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+    "handle": "@reactjs",
+    "tuit": "Just had a fascinating conversation on the podcast with Dr. Michael Greger about the science behind plant-based diets and their impact on our health. Highly recommend giving it a listen! #joeroganexperience #healthylifestyle #plantbaseddiet"
   },
   {
     "_id": 234,
@@ -38,8 +38,8 @@
     "replies": 123,
     "retuits": 432,
     "likes": 2345,
-    "handle": "@spacex",
-    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+    "handle": "@jQuery",
+    "tuit": "Did you know that jQuery 4.0 is in development? We're working hard to make it faster and more powerful than ever before. Stay tuned for updates and sneak peeks! #jQuery #webdev"
   },
   {
     "_id": 456,
@@ -52,7 +52,7 @@
     "replies": 123,
     "retuits": 432,
     "likes": 2345,
-    "handle": "@spacex",
-    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+    "handle": "@nodeJS",
+    "tuit": "Hey everyone, have you tried out the latest version of #NodeJS? It includes some awesome new features and performance improvements! Check it out now: https://nodejs.org/en/"
   }
 ]
