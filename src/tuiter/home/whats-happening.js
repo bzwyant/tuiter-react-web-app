@@ -7,7 +7,17 @@ const WhatsHappening = () => {
 	const dispatch = useDispatch();
 	const tuitClickHandler = () => {
 		const newTuit = {
-			tuit: whatsHappening
+			tuit: whatsHappening,
+			handle: "@nasa",
+			image: "nasa.png",
+			userName: "NASA",
+			time: "1 second ago",
+			liked: false,
+			replies: 0,
+			retuits: 0,
+			likes: 0,
+			disliked: false,
+			dislikes: 0
 		}
 		dispatch(createTuitThunk(newTuit))
 	}
